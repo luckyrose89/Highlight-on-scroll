@@ -8,20 +8,30 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-header__nav">
-        <ul class="nav-list">
-          <li class="nav-item">About</li>
-          <li class="nav-item">History</li>
-          <li class="nav-item">Clients</li>
-          <li class="nav-item">Contact</li>
-        </ul>
-      </nav>
-    </header>
-    <div id="About"></div>
-    <div id="History"></div>
-    <div id="Clients"></div>
-    <div id="Contact"></div>
+    <div class="wrapper">
+      <header class="main-header">
+        <nav class="main-header__nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#history" class="nav-link">History</a>
+            </li>
+            <li class="nav-item">
+              <a href="#clients" class="nav-link">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div id="about" class="section"><p>About</p></div>
+      <div id="history" class="section"><p>History</p></div>
+      <div id="clients" class="section"><p>Clients</p></div>
+      <div id="contact" class="section"><p>Contact</p></div>
+    </div>
     <script src="highlight.js"></script>
   </body>
 </html>

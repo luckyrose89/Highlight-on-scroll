@@ -4,13 +4,89 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  padding-top: 20rem;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+/*******Header Styles*****/
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1d1d1d;
+  height: 80px;
+  z-index: 9;
+}
+
+.main-header__nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  font-size: 2rem;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.nav-item a {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.active-nav {
+  color: #1d1d1d;
+  background: #ffffff;
+}
+
+/*******Body styles*********/
+#about {
+  background-color: #85dcb8;
+}
+
+#history {
+  background-color: #e27d60;
+}
+
+#clients {
+  background-color: #c38d9e;
+}
+
+#contact {
+  background-color: #e8a87c;
+}
+
+.section {
+  height: 100%;
+  width: 100%;
 }
