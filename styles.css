@@ -53,18 +53,18 @@ p {
   justify-content: center;
 }
 
-.nav-item {
+.nav-list li {
   font-size: 2rem;
   list-style: none;
   margin-right: 1rem;
 }
 
-.nav-item a {
+.nav-list a {
   color: #ffffff;
   padding: 10px;
 }
 
-.active-nav {
+.active a {
   color: #1d1d1d;
   background: #ffffff;
 }
