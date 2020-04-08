@@ -91,6 +91,27 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: all 0.3s ease-out;
+}
+
+.fixed-banner__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.fixed-banner__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 4rem;
+  color: #ffffff;
+  transition: all 0.3s ese-in;
 }
 
 /*******Body styles*********/
